@@ -9,10 +9,10 @@
   <Version>1.0.0.2</Version>
   <ProviderName>Data Science Wizards</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Claims Fraud Detection"/>
-  <Description DefaultValue="Detect claims fraud using Power Automate flow for Outlook"/>
-  <IconUrl DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/recolored_logo64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/recolored_logo128.png"/>
+  <DisplayName DefaultValue="Auto Process"/>
+  <Description DefaultValue="Trigger Underwriting or Claims Workflow for Automated Processing"/>
+  <IconUrl DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/logo64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/logo128.png"/>
   <SupportUrl DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/support"/>
   
   <AppDomains>
@@ -91,9 +91,9 @@
     
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/recolored_logo16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/recolored_logo32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/recolored_logo80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/logo16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/logo32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/logo8080.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Commands.Url" DefaultValue="https://yash-dsw.github.io/outlook_claims_addin/commands.html"/>
@@ -101,7 +101,7 @@
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Flow Actions"/>
-        <bt:String id="TriggerButton.Label" DefaultValue="Detect Fraud"/>
+        <bt:String id="TriggerButton.Label" DefaultValue="Auto Process"/>
         <bt:String id="TriggerButton.SupertipTitle" DefaultValue="Trigger Power Automate"/>
       </bt:ShortStrings>
       <bt:LongStrings>
